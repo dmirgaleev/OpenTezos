@@ -4,7 +4,7 @@ title: Available Tezos Explorers
 authors: Maxime Sallerin
 ---
 
-> __Coming soon__: A more in-depth comparison of all availables Tezos explorers.
+> **Coming soon**: A more in-depth comparison of all availables Tezos explorers.
 
 The purpose of this chapter is to list the main explorers of the Tezos blockchain and presents the pros and cons of some.
 
@@ -58,11 +58,11 @@ extending the functionality of traditional block explorers with comprehensive da
 - no mempool access
 - no full-text search
 
+## TzKT Tezos Explorer, Indexer and API
 
-## Baking Bad TzKT Indexer
-
+TzKT has high data detalization, user-friendly interface for both desktop and mobile devices, and free open-source lightweight Tezos blockchain indexer, developing by the Baking Bad team.
 Baking Bad is a software development company and active Tezos tools contributor.  
-Their block explorer **TzKT** was released in December 2021.
+**TzKT** was released in 2019.
 
 ![](../../static/img/explorer/screenshot_TzKT_explorer.png)
 <small className="figure">FIGURE 1: TzKT Explorer</small>
@@ -72,16 +72,19 @@ Their block explorer **TzKT** was released in December 2021.
 
 **Pros**
 
-- API server
-- mempool access
+- feature-rich API
+- mempool observing
+- DEX trading
+- live data via WebSocket
+- true open-source
 
 **Cons**
 
-- requires Microsoft Toolchain
-- no time-series data
+- no translations (english only)
+- no detailed statistics charts
+- no dark theme
 
 > The Baking Bad team has developed another tool, [Better Call Dev](https://better-call.dev/), which allows the exploration of smart contracts.
-
 
 ## Nomadic Labs Indexer
 
